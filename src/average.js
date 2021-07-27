@@ -11,7 +11,6 @@
     - average([1, 1]) // Retorno: 1;
     - average([1, '2']) // Retorno: undefined;
 */
-const assert = require('assert');
 
 const average = (array) => {
   if (array.length === 0) return undefined;
@@ -27,15 +26,3 @@ const average = (array) => {
 };
 
 module.exports = average;
-
-let parameter = [-1, -2, -3, -4, -5];
-let output = average(parameter);
-assert.strictEqual(typeof average, 'function');
-
-parameter = ['1', '2', '3', '4', '5'];
-output = average(parameter);
-assert.deepStrictEqual(output, undefined);
-
-parameter = [];
-output = average(parameter);
-assert.deepStrictEqual(output, undefined);
