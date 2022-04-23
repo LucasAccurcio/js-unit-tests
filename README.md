@@ -1,6 +1,6 @@
 
 # Projeto JavaScript Testes Unitários
----
+
 ## Contexto
 
 Neste projeto foi implementado várias funções para atender aos requisitos propostos e/ou testes unitários para garantir que as implementações das funções estávam corretas.
